@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MockTechTalks - Coming Soon</title>
+    <style>
+        body {
+            background-color: black;
+            color: #0F0;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .terminal {
+            max-width: 1200px;
+            margin: 0 auto;
+            white-space: pre;
+            overflow-x: auto;
+        }
+        .cursor {
+            animation: blink 1s infinite;
+            display: inline-block;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+ _____ ______   ________  ________  ___  __    _________  _______   ________  ___  ___  _________  ________  ___       ___  __    ________      
+|\   _ \  _   \|\   __  \|\   ____\|\  \|\  \ |\___   ___\\  ___ \ |\   ____\|\  \|\  \|\___   ___\\   __  \|\  \     |\  \|\  \ |\   ____\     
+\ \  \\\__\ \  \ \  \|\  \ \  \___|\ \  \/  /|\|___ \  \_\ \   __/|\ \  \___|\ \  \\\  \|___ \  \_\ \  \|\  \ \  \    \ \  \/  /|\ \  \___|_    
+ \ \  \\|__| \  \ \  \\\  \ \  \    \ \   ___  \   \ \  \ \ \  \_|/_\ \  \    \ \   __  \   \ \  \ \ \   __  \ \  \    \ \   ___  \ \_____  \   
+  \ \  \    \ \  \ \  \\\  \ \  \____\ \  \\ \  \   \ \  \ \ \  \_|\ \ \  \____\ \  \ \  \   \ \  \ \ \  \ \  \ \  \____\ \  \\ \  \|____|\  \  
+   \ \__\    \ \__\ \_______\ \_______\ \__\\ \__\   \ \__\ \ \_______\ \_______\ \__\ \__\   \ \__\ \ \__\ \__\ \_______\ \__\\ \__\____\_\  \ 
+    \|__|     \|__|\|_______|\|_______|\|__| \|__|    \|__|  \|_______|\|_______|\|__|\|__|    \|__|  \|__|\|__|\|_______|\|__| \|__|\_________\
+                                                                                                                                    \|_________|
+
+        <div>
+            Status: Under Development
+            Estimated Launch: Soon
+
+            $ ./prepare_launch.sh
+            Preparing technical platform...
+            Development progress: [█] 10%
+
+            <span>root@mocktechtalks:~$ </span>
+            <span class="cursor">█</span>
+        </div>
+    </div>
+</body>
+</html>
